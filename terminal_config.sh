@@ -3,7 +3,7 @@
 declare -a file_names=(.bash_profile .bash_prompt .aliases)
 url=https://raw.githubusercontent.com/Angarsk8/solarized-dark-iterm/master
 
-if [[ -f $(which curls) ]]; then
+if [[ -f $(which curl) ]]; then
 	for file in "${file_names[@]}" 
 	do
 		full_path=$url/$file
