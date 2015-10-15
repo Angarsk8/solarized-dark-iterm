@@ -1,11 +1,24 @@
 #Iterm 2 - Theme Configuration
 
-
 ##Automated Installation
+
+### Bash
 
 Open a terminal window and execute the following command:
 
 `>$ curl https://raw.githubusercontent.com/Angarsk8/solarized-dark-iterm/master/terminal_config.sh | sh`
+
+***Note***: this step requires [Curl](http://curl.haxx.se/) to be installed
+
+Once it finishes, go to the last step.
+
+### Node
+
+Open a terminal window and execute the following command:
+
+`>$ curl https://raw.githubusercontent.com/Angarsk8/solarized-dark-iterm/master/terminal_config.js > terminal_config.js && shjs terminal_config`
+
+***Note***: this step requires [Curl](http://curl.haxx.se/), [node](https://nodejs.org) and [shelljs](https://www.npmjs.com/package/shelljs) to be installed
 
 Once it finishes, go to the last step.
 
